@@ -1,5 +1,5 @@
 :root { --cor-de-fundo: #1E1E1E; --verde: #6FFF57; --branco: #FFFFFF; --botao-ativo: #3A375E; --botao-inativo: rgba(58, 55, 94, 0.5); --texto-fundo: rgba(58, 55, 94, 0.3); }
-@import url(‘https://fonts.googleapis.com/family=Chakra+Petch:wght@400;700&display=swap’);
+@import url('https://fonts.googleapis.com/family=Chakra+Petch:wght@400;700&display=swap');
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco); font-family: ‘Chakra Petch’, sans-serif;
@@ -16,9 +16,10 @@ body {
             width: 100%;
             font-size: 32px;
             }
-            <h2 class=”titulo-principal”>Meus Objetivos do ano<span>_<span></h2>
+        
             .titulo-principal span {
-                color: var(--verde); }
+                color: var(--verde); 
+            }
                 .botao { font-family: «Crakra Petch», sans-serif;
                     background-color: var(--botao-inativo);
                     color: var(--branco); display: flex;
